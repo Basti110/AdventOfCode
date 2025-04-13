@@ -30,7 +30,7 @@ fn check_order(row_entries: &Vec<i32>) -> (bool, usize) {
         }
     }
 
-    return (true, 0);
+    (true, 0)
 }
 
 fn main() -> io::Result<()> {
